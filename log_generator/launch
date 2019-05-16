@@ -1,0 +1,4 @@
+python tail_to_kafka.py -f s2.secure -t new_logs -s 0.1
+python tail_to_kafka.py -f s3.secure -t new_logs -s 0.1
+python tail_to_kafka.py -f s4.secure -t new_logs
+python tail_to_kafka.py -f s5.secure -t new_logs
